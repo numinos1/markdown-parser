@@ -1,0 +1,176 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "section",
+      "title": "Document Title",
+      "children": [
+        {
+          "type": "paragraph",
+          "value": "A simple sentence example."
+        },
+        {
+          "type": "section",
+          "title": "Section 1",
+          "children": [
+            {
+              "type": "list",
+              "ordered": false,
+              "depth": 0,
+              "children": [
+                {
+                  "type": "listItem",
+                  "value": "One"
+                },
+                {
+                  "type": "listItem",
+                  "value": "Two"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "depth": 2,
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "value": "Two.One"
+                    },
+                    {
+                      "type": "list",
+                      "ordered": false,
+                      "depth": 4,
+                      "children": [
+                        {
+                          "type": "listItem",
+                          "value": "Two.One.One"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "value": "Two.Two"
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "value": "Three"
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "depth": 2,
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "value": "Three.One"
+                    },
+                    {
+                      "type": "listItem",
+                      "value": "Three.Two"
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "value": "Four"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "value": "And an ordered list here:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "depth": 0,
+              "children": [
+                {
+                  "type": "listItem",
+                  "value": "First item"
+                },
+                {
+                  "type": "listItem",
+                  "value": "Second item"
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "depth": 3,
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "value": "Second one"
+                    },
+                    {
+                      "type": "listItem",
+                      "value": "Second two"
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "value": "Third item"
+                },
+                {
+                  "type": "listItem",
+                  "value": "Fourth item"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "title": "Section 2 ",
+          "name": "John Doe",
+          "age": 27,
+          "children": [
+            {
+              "type": "file",
+              "title": "Name of the file",
+              "url": "file/path/here.jpg"
+            },
+            {
+              "type": "href",
+              "title": "",
+              "url": "news.ycombinator.com/"
+            },
+            {
+              "type": "section",
+              "title": "Section 2A",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "value": "This is how you initialize a repo"
+                },
+                {
+                  "type": "code",
+                  "name": "bash",
+                  "value": "pnpm init # Initialize repo\ngit add . # Add files to the repo\ngit commit -m 'First commit' # Commit to repo\ngit push origin # Push files to remote"
+                },
+                {
+                  "type": "paragraph",
+                  "value": "Something interesting here"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Section 2B"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "title": "Section 3"
+        },
+        {
+          "type": "section",
+          "title": "Section 4"
+        }
+      ]
+    }
+  ]
+}
